@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Barlow:wght@100;400&family=Bellefair&display=swap');
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    background: url("../images/home/background-home-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: inherit inherit;
+    color: #ffffff;
+}
+a:active{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+    padding-left: 70px;
+    
+}
+nav img{
+    width: 40px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding-right: 130px;
+    padding-left: 90px;
+    /*backdrop-filter: blur(5px);*/
+    background: rgba(21, 30, 41, 0.7);
+
+}
+nav ul li{
+    margin-right: 35px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 30px 0px;
+    
+}
+nav .navlinks{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 30px 0px;
+    
+}
+.selectedlink{
+    border-bottom: 2px solid #ffffff;
+}
+nav .navlinks:hover{
+    color: #d0d6f9;
+    border-bottom: 2px solid #d0d6f9;
+}
+nav hr{
+    margin-right: -20px;
+    width: 355px;
+    height: 2px;
+    background-color: #232531;
+    border: none;
+}
+.container{
+    margin-top: 100px;
+    padding: 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.intro{
+    font-size: 24px;
+    margin: 0px;
+    margin-bottom: 15px;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+.destination{
+    font-size: 130px;
+    margin: 0px;
+    font-family: 'Bellefair', serif;
+    letter-spacing: 5px;
+}
+.information{
+    line-height: 25px;
+    margin: 0px;
+    margin-top: 25px;
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 100;
+}
+.destinationlink{
+    text-decoration: none;
+}
+
+.explorebtn{
+    width: 230px;
+    height: 230px;
+    color: #141416;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.explore{
+    font-size: 32px;
+    line-height: 233px;
+    padding: 0px 48px;
+    font-family: 'Bellefair', serif;
+    text-decoration: none;
+}
