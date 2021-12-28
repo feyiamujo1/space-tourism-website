@@ -126,7 +126,10 @@ nav hr{
 
 @media screen and (max-width:991px){
     html{
-        background: url("../images/home/background-home-tablet.jpg");
+        background: url("../images/home/background-home-tablet.jpg") no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
     }
     nav{
         padding-top: 0px;
