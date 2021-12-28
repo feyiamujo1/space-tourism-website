@@ -125,11 +125,9 @@ nav hr{
 }
 .explore:hover{
     outline: 50px solid #23262f;
-
 }
 .explore:active{
     outline: 50px solid #23262f;
-    overflow: hidden;
 }
 .sidebar{
     display: none;
@@ -181,7 +179,7 @@ nav hr{
         width: inherit;
         height: 100%;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     .destinationlink{
         text-align: center;
@@ -194,12 +192,11 @@ nav hr{
     .explore{
         margin: 0 auto;
         width: 230px;
-        outline: 50px solid #23262f;
-        overflow: hidden;
     }
-    /*.explore:active{
-        outline: 50px solid #23262f;
-    }*/
+    .explore:hover, .explore:active{
+       background-color: #23262f;
+       color: #ffffff; 
+    }
 }
 @media screen and (max-width:767px){
     nav{
@@ -285,16 +282,12 @@ nav hr{
     .explore{
         width: 200px;
         padding: 75px 0px;
-        outline: 50px solid #23262f;
-        overflow: hidden;
     }
     .explorebtn{
         margin-top: 90px;
-        
     }
     .secondpart{
         height: 100%;
-        margin-bottom: 20px;
     }
 }
 @media screen and (max-width:340px){
