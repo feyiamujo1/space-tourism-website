@@ -125,9 +125,11 @@ nav hr{
 }
 .explore:hover{
     outline: 50px solid #23262f;
+
 }
 .explore:active{
     outline: 50px solid #23262f;
+    overflow: hidden;
 }
 .sidebar{
     display: none;
@@ -193,6 +195,7 @@ nav hr{
         margin: 0 auto;
         width: 230px;
         outline: 50px solid #23262f;
+        overflow: hidden;
     }
     /*.explore:active{
         outline: 50px solid #23262f;
@@ -283,6 +286,7 @@ nav hr{
         width: 200px;
         padding: 75px 0px;
         outline: 50px solid #23262f;
+        overflow: hidden;
     }
     .explorebtn{
         margin-top: 90px;
