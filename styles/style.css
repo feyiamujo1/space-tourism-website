@@ -2,8 +2,8 @@
 html{
     background: url("../images/home/background-home-desktop.jpg") no-repeat center center fixed;
     background-size: cover;
-    min-height: 100%;
-    overflow: hidden;
+    
+    
 }
 body{
     margin: 0 auto;
@@ -103,7 +103,7 @@ nav hr{
     padding: 0px;
 }
 .secondpart{
-    height: 350px;
+    height: 100%;
     width: 230px;
     box-sizing: border-box;
 }
@@ -137,8 +137,6 @@ nav hr{
     html{
         background: url("../images/home/background-home-tablet.jpg") no-repeat center center fixed;
         background-size: cover;
-        min-height: 100%;
-        overflow: hidden;
     }
     nav{
         padding-top: 0px;
@@ -173,6 +171,9 @@ nav hr{
     .destination{
         font-size: 120px;
     }
+    .information{
+        font-size: 18px;
+    }
     .secondpart{
         width: inherit;
         text-align: center;
@@ -206,14 +207,16 @@ nav hr{
         background: url("../images/home/background-home-mobile.jpg") no-repeat center center fixed;
         background-size: cover;
         min-height: 100%;
-        overflow: hidden;
     }
     nav ul{
         display: none;
     }
     nav{
-        margin-top: 20px;
+        margin-top: 10px;
         padding: 0px 30px;
+    }
+    nav img{
+        width: 40px;
     }
     #sidebarbtn{
         display: block;
@@ -221,21 +224,20 @@ nav hr{
     .sidebar{
         position: absolute;
         top: 0%;
-        right: 0%;
+        right: 0px;
         bottom: 0%;
-        width: 60%;
+        width: 70%;
         background: rgba(21, 30, 41, 1);
     }
     .sidebar img{
         width: 25px;
-        margin: 42px 20px 35px 0px;
+        margin: 29px 30px 25px 0px;
         float: right;
-
     }
     .sidebar ul{
         clear: both;
         font-family: 'Barlow Condensed', sans-serif;
-        padding-top: 28px;
+        padding-top: 0px;
     }
     .sidebar ul li{
         list-style: none;
@@ -256,7 +258,32 @@ nav hr{
     .sidebar .navlinks:active{
         color: #d0d6f9;
     }
+    .container{
+        margin-top: 40px;
+        padding: 0px 5px;
+    }
     .intro{
         font-size: 18px;
+        letter-spacing: 2px;
+    }
+    .destination{
+        font-size: 80px;
+        letter-spacing: 2px;
+    }
+    .information{
+        font-size: 12px;
+        font-size: 400;
+        margin-top: 0px;
+    }
+    .explore{
+        width: 200px;
+        padding: 75px 0px;
+    }
+    .explorebtn{
+        margin-top: 90px;
+    }
+    .secondpart{
+        height: 100%;
+        margin-bottom: 20px;
     }
 }
