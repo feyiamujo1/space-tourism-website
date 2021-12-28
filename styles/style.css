@@ -272,7 +272,7 @@ nav hr{
         letter-spacing: 2px;
     }
     .information{
-        font-size: 12px;
+        font-size: 14px;
         font-size: 400;
         margin-top: 0px;
     }
@@ -287,4 +287,14 @@ nav hr{
         height: 100%;
         margin-bottom: 20px;
     }
+}
+@media screen and (max-width:340px){
+    .sidebar ul li{
+        font-size: 14px;
+    }
+    .information{
+        font-size: 12px;
+        font-weight: 400px;
+    }
+
 }
