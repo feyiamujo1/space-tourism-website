@@ -119,7 +119,7 @@ nav hr{
     text-align: center;
     
 }
-.explorebtn:hover .explore{
+.explore:hover{
     outline: 50px solid #23262f;
 }
 
