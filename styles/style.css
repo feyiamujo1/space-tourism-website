@@ -2,7 +2,7 @@
 html{
     background: url("../images/home/background-home-desktop.jpg") no-repeat center center fixed;
     background-size: cover;
-    height: 100%;
+    min-height: 100%;
     overflow: hidden;
 }
 body{
@@ -130,7 +130,7 @@ nav hr{
     html{
         background: url("../images/home/background-home-tablet.jpg") no-repeat center center fixed;
         background-size: cover;
-        height: 100%;
+        min-height: 100%;
         overflow: hidden;
     }
     nav{
@@ -169,6 +169,7 @@ nav hr{
     }
     .explorebtn{
         margin-top: 150px;
+        border-radius: 50%;
     }
     .explore{
         margin: 0 auto;
