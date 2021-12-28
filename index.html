@@ -20,6 +20,7 @@
                 <li><a class= "navlinks" href="#"><strong>02</strong> &nbsp;Crew</a></li>
                 <li><a class= "navlinks" href="#"><strong>03</strong> &nbsp;Technology</a></li>
             </ul>
+            <img id = "sidebarbtn" onclick="showsidebar()" src="images/icon-hamburger.svg" alt="cancel_sidebar">
         </nav>
     </div>
     <div class="container">
@@ -40,5 +41,15 @@
             </a>
         </div>
     </div>
+    <div id="sidebar" class="sidebar">
+        <img src="images/icon-close.svg" onclick="hidesidebar()" alt="">
+        <ul>
+            <li><a class= "navlinks" href="index.html"><strong>00</strong> &nbsp;Home</a></li>
+            <li><a class= "navlinks" href="#"><strong>01</strong> &nbsp;Destination</a></li>
+            <li><a class= "navlinks" href="#"><strong>02</strong> &nbsp;Crew</a></li>
+            <li><a class= "navlinks" href="#"><strong>03</strong> &nbsp;Technology</a></li>
+        </ul>
+    </div>
+    <script src="scripts/homepage.js"></script>
 </body>
 </html>

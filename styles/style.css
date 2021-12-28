@@ -49,7 +49,7 @@ nav .navlinks{
     padding: 30px 0px;
     
 }
-.selectedlink{
+nav .selectedlink{
     border-bottom: 2px solid #ffffff;
 }
 nav .navlinks:hover{
@@ -63,6 +63,10 @@ nav hr{
     height: 2px;
     background-color: #232531;
     border: none;
+}
+#sidebarbtn{
+    width: 25px;
+    display: none;
 }
 .container{
     margin-top: 70px;
@@ -125,6 +129,9 @@ nav hr{
 .explore:active{
     outline: 50px solid #23262f;
 }
+.sidebar{
+    display: none;
+}
 
 @media screen and (max-width:991px){
     html{
@@ -160,15 +167,22 @@ nav hr{
         text-align: center;
         padding: 0px 25px;
     }
+    .intro{
+        font-size: 16px;
+    }
+    .destination{
+        font-size: 120px;
+    }
     .secondpart{
         width: inherit;
         text-align: center;
     }
     .destinationlink{
         text-align: center;
+
     }
     .explorebtn{
-        margin-top: 150px;
+        margin-top: 120px;
         border-radius: 50%;
     }
     .explore{
@@ -185,5 +199,64 @@ nav hr{
     }
     nav ul{
         padding: 0px 0px 0px 40px;
+    }
+}
+@media screen and (max-width:555px){
+    html{
+        background: url("../images/home/background-home-mobile.jpg") no-repeat center center fixed;
+        background-size: cover;
+        min-height: 100%;
+        overflow: hidden;
+    }
+    nav ul{
+        display: none;
+    }
+    nav{
+        margin-top: 20px;
+        padding: 0px 30px;
+    }
+    #sidebarbtn{
+        display: block;
+    }
+    .sidebar{
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        bottom: 0%;
+        width: 60%;
+        background: rgba(21, 30, 41, 1);
+    }
+    .sidebar img{
+        width: 25px;
+        margin: 42px 20px 35px 0px;
+        float: right;
+
+    }
+    .sidebar ul{
+        clear: both;
+        font-family: 'Barlow Condensed', sans-serif;
+        padding-top: 28px;
+    }
+    .sidebar ul li{
+        list-style: none;
+        font-family: 'Barlow Condensed', sans-serif;
+        letter-spacing: 3px;
+        font-size: 18px;
+        font-weight: 100;
+        text-transform: uppercase;
+        padding: 30px 50px 10px 5px;
+        
+    }
+    .sidebar .navlinks{
+        color: #ffffff;
+        text-decoration: none;
+        padding: 30px 0px;
+        
+    }
+    .sidebar .navlinks:active{
+        color: #d0d6f9;
+    }
+    .intro{
+        font-size: 18px;
     }
 }
