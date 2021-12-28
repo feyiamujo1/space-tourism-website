@@ -282,9 +282,11 @@ nav hr{
     .explore{
         width: 200px;
         padding: 75px 0px;
+        outline: 50px solid #23262f;
     }
     .explorebtn{
         margin-top: 90px;
+        
     }
     .secondpart{
         height: 100%;
