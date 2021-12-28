@@ -177,7 +177,9 @@ nav hr{
     }
     .secondpart{
         width: inherit;
+        height: 100%;
         text-align: center;
+        margin-bottom: 20px;
     }
     .destinationlink{
         text-align: center;
@@ -190,10 +192,11 @@ nav hr{
     .explore{
         margin: 0 auto;
         width: 230px;
-    }
-    .explore:active{
         outline: 50px solid #23262f;
     }
+    /*.explore:active{
+        outline: 50px solid #23262f;
+    }*/
 }
 @media screen and (max-width:767px){
     nav{
