@@ -122,6 +122,9 @@ nav hr{
 .explore:hover{
     outline: 50px solid #23262f;
 }
+.explore:active{
+    outline: 50px solid #23262f;
+}
 
 @media screen and (max-width:991px){
     html{
@@ -170,6 +173,9 @@ nav hr{
     .explore{
         margin: 0 auto;
         width: 230px;
+    }
+    .explore:active{
+        outline: 50px solid #23262f;
     }
 }
 @media screen and (max-width:767px){
