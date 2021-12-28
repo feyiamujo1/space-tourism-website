@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Barlow:wght@100;400&family=Bellefair&display=swap');
+html{
+    background: url("../images/home/background-home-desktop.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
 body{
     margin: 0 auto;
     padding: 0 auto;
-    background: url("../images/home/background-home-desktop.jpg");
-    background-repeat: no-repeat;
+    
     color: #ffffff;
 }
 a:active{
@@ -120,10 +125,11 @@ nav hr{
 }
 
 @media screen and (max-width:991px){
-    body{
-        background: url("../images/home/background-home-tablet.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
+    html{
+        background: url("../images/home/background-home-tablet.jpg") no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
     }
     nav{
         padding-top: 0px;
