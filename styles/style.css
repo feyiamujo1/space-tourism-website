@@ -196,6 +196,7 @@ nav hr{
     .explore:hover, .explore:active{
        background-color: #23262f;
        color: #ffffff; 
+       outline: none;
     }
 }
 @media screen and (max-width:767px){
