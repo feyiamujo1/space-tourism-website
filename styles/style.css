@@ -31,7 +31,6 @@ nav ul{
     display: flex;
     padding-right: 100px;
     padding-left: 90px;
-    /*backdrop-filter: blur(5px);*/
     background: rgba(21, 30, 41, 0.7);
 }
 nav ul li{
@@ -98,22 +97,20 @@ nav hr{
     font-family: 'Barlow', sans-serif;
     font-weight: 100;
 }
-.destinationlink{
-    text-decoration: none;
-    padding: 0px;
-}
 .secondpart{
     height: 100%;
     width: 230px;
     box-sizing: border-box;
 }
-.explorebtn{
-    color: #141416;
-    margin-top: 110px;
-    cursor: pointer;
+.secondpart a{
+    text-decoration: none;
+}
+.secondpart a:active{
+    text-decoration: none;
 }
 .explore{
     font-size: 32px;
+    color: #141416;
     /*line-height: 233px;*/
     border-radius: 50%;
     background-color: #ffffff;
@@ -121,7 +118,6 @@ nav hr{
     font-family: 'Bellefair', serif;
     text-decoration: none;
     text-align: center;
-    
 }
 .explore:hover{
     outline: 50px solid #23262f;
@@ -176,27 +172,17 @@ nav hr{
         font-size: 18px;
     }
     .secondpart{
-        width: inherit;
+        width: 100%;
         height: 100%;
         text-align: center;
-        margin-bottom: 30px;
-    }
-    .destinationlink{
-        text-align: center;
-
-    }
-    .explorebtn{
-        margin-top: 120px;
-        border-radius: 50%;
+        margin: 100px 0px 25px;
     }
     .explore{
         margin: 0 auto;
         width: 230px;
     }
-    .explore:hover, .explore:active{
-       background-color: #23262f;
-       color: #ffffff; 
-       outline: none;
+    .explore:active{
+        outline: 50px solid #23262f;
     }
 }
 @media screen and (max-width:767px){
@@ -284,9 +270,6 @@ nav hr{
         width: 200px;
         padding: 75px 0px;
     }
-    .explorebtn{
-        margin-top: 90px;
-    }
     .secondpart{
         height: 100%;
     }
@@ -297,7 +280,7 @@ nav hr{
     }
     .information{
         font-size: 12px;
-        font-weight: 400px;
+        font-weight: 400;
     }
 
 }
