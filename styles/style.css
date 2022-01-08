@@ -192,6 +192,11 @@ nav hr{
     nav ul{
         padding: 0px 0px 0px 40px;
     }
+    .explore:active{
+        outline: none;
+        background-color: #141416;
+        color: #ffffff;
+    }
 }
 @media screen and (max-width:555px){
     html{
