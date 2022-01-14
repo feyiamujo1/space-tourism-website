@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Barlow:wght@100;400&family=Bellefair&display=swap');
 html{
-    background: url("../images/home/background-home-desktop.jpg") no-repeat center center fixed;
+    background: url("../images/destination/background-destination-desktop.jpg") no-repeat center center fixed;
     background-size: cover;
     min-height: 100%;
-    
 }
 body{
     margin: 0 auto;
@@ -60,7 +59,7 @@ nav hr{
     right: 20%;
     width: 500px;
     height: 1px;
-    background-color: #383B4B;
+    background-color: #5a606c;
     border: none;
 }
 #sidebarbtn{
@@ -68,70 +67,100 @@ nav hr{
     display: none;
 }
 .container{
-    margin-top: 70px;
-    padding: 0px 70px;
+    margin-top: 50px;
+    padding: 0px 50px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-}
-.intro{
-    font-size: 24px;
-    margin: 0px;
-    margin-bottom: 15px;
-    font-family: 'Barlow Condensed', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-weight: 100;
-}
-.destination{
-    font-size: 130px;
-    margin: 0px;
-    font-family: 'Bellefair', serif;
-    letter-spacing: 5px;
-}
-.information{
-    line-height: 25px;
-    margin: 0px;
-    margin-top: 25px;
-    font-size: 16px;
-    font-family: 'Barlow', sans-serif;
-    font-weight: 100;
-}
-.secondpart{
-    height: 100%;
-    width: 230px;
+    justify-content: center;
     box-sizing: border-box;
-}
-.secondpart a{
-    text-decoration: none;
-}
-.secondpart a:active{
-    text-decoration: none;
-}
-.explore{
-    font-size: 32px;
-    color: #141416;
-    /*line-height: 233px;*/
-    border-radius: 50%;
-    background-color: #ffffff;
-    padding: 90px 0px;
-    font-family: 'Bellefair', serif;
-    text-decoration: none;
-    text-align: center;
-}
-.explore:hover{
-    outline: 50px solid #23262f;
-}
-.explore:active{
-    outline: 50px solid #23262f;
 }
 .sidebar{
     display: none;
 }
-
+.firstpart{
+    margin: 0px 30px 0px 5px;
+}
+.instruction{
+    font-size: 25px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 5px;
+    margin-bottom: 70px;
+}
+.instruction strong{
+    color: #545662;
+}
+.destination_image{
+    width: 400px;
+    margin-left: 50px;
+}
+.secondpart{
+    margin-left: 55px;
+    margin-top: 60px;
+}
+.choice_destinations{
+    display: flex;
+    padding: 0px 8px;
+}
+.choice_destinations li{
+    font-family: 'Barlow Condensed', sans-serif;
+    list-style: none;
+    padding: 15px 0px;
+    margin-right: 34px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #d0d6f9;
+    cursor: pointer;
+}
+.choice_destinations li:hover{
+    color: #ffffff;
+    border-bottom: 2px #ffffff solid;
+}
+.selected_destination{
+    border-bottom: 2px #ffffff solid;
+    color: #ffffff !important;
+}
+.destination{
+    font-family: 'Bellefair', serif;
+    font-size: 100px;
+    margin: 0px;
+}
+.detail_container{
+    margin: 30px 0px;
+}
+.destination_description{
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    color: #d0d6f9;
+    line-height: 25px;
+    width: 400px;
+    font-weight: 100;
+}
+.detail_container hr{
+    background-color: #383B4B;
+    border: none;
+    height: 1px;
+}
+.other_info{
+    display: flex;
+}
+.distance_container{
+    margin-right: 90px;
+}
+.topic{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    color: #D0D6F9;
+    letter-spacing: 2px;
+    
+}
+.distance, .time{
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+    margin-top: 0px;
+}
 @media screen and (max-width:991px){
     html{
-        background: url("../images/home/background-home-tablet.jpg") no-repeat center center fixed;
+        background: url("../images/destination/background-destination-tablet.jpg") no-repeat center center fixed;
         background-size: cover;
         min-height: 100%;
     }
@@ -160,47 +189,63 @@ nav hr{
     .container{
         display: block;
         text-align: center;
-        padding: 0px 25px;
+        padding: 0px 50px;
     }
-    .intro{
-        font-size: 16px;
+    .firstpart{
+        margin: 0px;
     }
-    .destination{
-        font-size: 120px;
+    .instruction{
+        text-align: left;
+        font-size: 22px;
     }
-    .information{
-        font-size: 18px;
+    .destination_image{
+        margin: 0px;
+        width: 330px;
     }
     .secondpart{
-        width: 100%;
-        height: 100%;
         text-align: center;
-        margin: 100px 0px 25px;
+        margin-left: 0px;
     }
-    .explore{
+    .choice_destinations{
+        justify-content: center;
+    }
+    .choice_destinations li{
+        margin: 0px 28px;
+    }
+    .destination_description{
+        width: 550px;
         margin: 0 auto;
-        width: 230px;
+        margin-bottom: 45px;
     }
-    .explore:active{
-        outline: 50px solid #23262f;
+    .detail_container hr{
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 500px;
+    }
+    .other_info{
+        justify-content: center;
     }
 }
 @media screen and (max-width:767px){
-    nav{
-        padding-left: 20px;
-    }
     nav ul{
         padding: 0px 0px 0px 35px;
     }
-    .explore:active{
-        outline: none;
-        background-color: #141416;
-        color: #ffffff;
+    nav{
+        padding-left: 20px;
+    }
+    .destination_description{
+        width: 450px;
+    }
+    .detail_container hr{
+        width: 400px;
+    }
+    .instruction{
+        margin-left: 20px;
     }
 }
 @media screen and (max-width:555px){
     html{
-        background: url("../images/home/background-home-mobile.jpg") no-repeat center center fixed;
+        background: url("../images/destination/background-destination-mobile.jpg") no-repeat center center fixed;
         background-size: cover;
         min-height: 100%;
     }
@@ -258,34 +303,51 @@ nav hr{
         margin-top: 40px;
         padding: 0px 5px;
     }
-    .intro{
-        font-size: 18px;
-        letter-spacing: 2px;
+    .instruction{
+        text-align: center;
+        margin-bottom: 40px;
+        letter-spacing: 3px;
+        margin-left: 0px;
     }
-    .destination{
-        font-size: 80px;
-        letter-spacing: 2px;
-    }
-    .information{
-        font-size: 14px;
-        font-size: 400;
-        margin-top: 0px;
-    }
-    .explore{
+    .destination_image{
         width: 200px;
-        padding: 75px 0px;
     }
     .secondpart{
-        height: 100%;
+        margin-top: 5px;
+    }
+    .choice_destinations{
+        margin: 0px;
+    }
+    .choice_destinations li{
+        margin: 0px 15px;
+    }
+    .destination{
+        font-size: 65px;
+        margin-top: 0px;
+    }
+    .destination_description{
+        width: 330px;
+        margin-bottom: 35px;
+    }
+    .detail_container hr{
+        width: 90%;
+    }
+    .other_info{
+        display: block;
+        margin: 35px 0px 50px;
+    }
+    .distance_container{
+        margin: 0px;
     }
 }
 @media screen and (max-width:340px){
     .sidebar ul li{
-        font-size: 14px;
+        font-size: 14px; 
     }
-    .information{
-        font-size: 12px;
-        font-weight: 400;
+    .destination_description{
+        width: 290px;
     }
-
+    .choice_destinations li{
+        margin: 0px 10px;
+    }
 }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/destination_style.css">
+    <title>Space Tourism Destination Page</title>
+</head>
+<body>
+    <div>
+        <nav>
+            <div>
+                <a href="index.html"><img src="images/logo.svg" alt="logo"></a>
+            </div>
+            <hr>
+            <ul>
+                <li><a class= "navlinks" href="index.html"><strong>00</strong> &nbsp;Home</a></li>
+                <li class="selectedlink"><a class= "navlinks" href="destination.html"><strong>01</strong> &nbsp;Destination</a></li>
+                <li><a class= "navlinks" href="crew.html"><strong>02</strong> &nbsp;Crew</a></li>
+                <li><a class= "navlinks" href="technology.html"><strong>03</strong> &nbsp;Technology</a></li>
+            </ul>
+            <img id = "sidebarbtn" onclick="showsidebar()" src="images/icon-hamburger.svg" alt="cancel_sidebar">
+        </nav>
+    </div>
+    <div class="container">
+        <div class="firstpart">
+            <p class="instruction"><strong>01</strong> &nbsp;&nbsp;PICK YOUR DESTINATION</p>
+            <img class="destination_image" src="images/destination/image-moon.png" alt="destination_image">
+        </div>
+        <div class="secondpart">
+            <div class="destinations_container">
+                <ul class="choice_destinations">
+                    <li class="selected_destination">MOON</li>
+                    <li>MARS</li>
+                    <li>EUROPA</li>
+                    <li>TITAN</li>
+                </ul>
+            </div>
+            <div class="detail_container">
+                <p class="destination">MOON</p>
+                <p class="destination_description">
+                    See our planet as you’ve never seen it before. A perfect relaxing trip 
+                    away to help regain perspective and come back refreshed. While you’re there, 
+                    take in some history by visiting the Luna 2 and Apollo 11 landing sites.
+                </p>
+                <hr>
+                <div class="other_info">
+                    <div class="distance_container">
+                        <p class="topic">AVG. DISTANCE</p>
+                        <p class="distance">384,400KM</p>
+                    </div>
+                    <div class="time_container">
+                        <p class="topic">EST. TRAVEL TIME</p>
+                        <p class="time">3 DAYS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sidebar" class="sidebar">
+        <img src="images/icon-close.svg" onclick="hidesidebar()" alt="">
+        <ul>
+            <li><a class= "navlinks" href="index.html"><strong>00</strong> &nbsp;Home</a></li>
+            <li><a class= "navlinks" href="destination.html"><strong>01</strong> &nbsp;Destination</a></li>
+            <li><a class= "navlinks" href="crew.html"><strong>02</strong> &nbsp;Crew</a></li>
+            <li><a class= "navlinks" href="technology.html"><strong>03</strong> &nbsp;Technology</a></li>
+        </ul>
+    </div>
+    <script src="scripts/homepage.js"></script>
+    <script src="scripts/destination.js"></script>
+</body>
+</html>
