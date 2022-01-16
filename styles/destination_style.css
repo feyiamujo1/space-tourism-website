@@ -123,6 +123,7 @@ nav hr{
     font-family: 'Bellefair', serif;
     font-size: 100px;
     margin: 0px;
+    text-transform: uppercase;
 }
 .detail_container{
     margin: 30px 0px;
@@ -133,6 +134,7 @@ nav hr{
     color: #d0d6f9;
     line-height: 25px;
     width: 400px;
+    height: 120px;
     font-weight: 100;
 }
 .detail_container hr{
@@ -157,6 +159,7 @@ nav hr{
     font-family: 'Bellefair', serif;
     font-size: 28px;
     margin-top: 0px;
+    text-transform: uppercase;
 }
 @media screen and (max-width:991px){
     html{
@@ -215,7 +218,7 @@ nav hr{
     .destination_description{
         width: 550px;
         margin: 0 auto;
-        margin-bottom: 45px;
+        margin-bottom: 5px;
     }
     .detail_container hr{
         margin: 0 auto;
@@ -235,6 +238,7 @@ nav hr{
     }
     .destination_description{
         width: 450px;
+        height: 130px;
     }
     .detail_container hr{
         width: 400px;
