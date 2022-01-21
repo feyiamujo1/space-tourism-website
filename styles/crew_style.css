@@ -296,25 +296,26 @@ nav hr{
         width: 327px;
     }
     #crewImage{
-        height: 222px;
-        width: 177px;
+        height: 230px;
+        width: 190px;
         margin-bottom: -3px;
         
     }
     .infoContainer{
         margin-top: 320px;
+        margin-bottom: 50px;
     }
     .secondpart{
         margin-bottom: 0px;
         border-bottom: 1px solid #383B4B;
         width: 85%;
         position: absolute;
-        top: 23%;
+        top: 28%;
         left: 7%;
     }
     .dotContainer{
         position: absolute;
-        top: 61%;
+        top: 77%;
         width: 50%;
         left: 26%;
     }
