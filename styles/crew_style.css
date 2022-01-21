@@ -296,13 +296,12 @@ nav hr{
         width: 327px;
     }
     #crewImage{
-        height: 230px;
-        width: 190px;
+        height: 222px;
+        width: 177px;
         margin-bottom: -3px;
-        
     }
     .infoContainer{
-        margin-top: 320px;
+        margin-top: 325px;
         margin-bottom: 50px;
     }
     .secondpart{
@@ -310,12 +309,12 @@ nav hr{
         border-bottom: 1px solid #383B4B;
         width: 85%;
         position: absolute;
-        top: 28%;
+        top: 23%;
         left: 7%;
     }
     .dotContainer{
         position: absolute;
-        top: 75.5%;
+        top: 60%;
         width: 50%;
         left: 26%;
     }
