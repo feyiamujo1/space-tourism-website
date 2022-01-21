@@ -74,6 +74,7 @@ nav hr{
 }
 .firstpart{
     margin-right: 60px;
+    width: 600px;
 }
 .instruction{
     font-size: 25px;
@@ -170,9 +171,10 @@ nav hr{
     }
     .firstpart{
         margin: 0px;
+        width: 100%;
     }
     .instruction{
-        text-align: left !important;
+        text-align: left;
         font-size: 20px;
     }
     .ghost{
@@ -199,7 +201,7 @@ nav hr{
         width: 456px;
         margin: 0 auto;
         text-align: center;
-        
+        margin-bottom: -5px;
     }
     #role{
         margin-top: 20px;
@@ -281,11 +283,53 @@ nav hr{
         margin-bottom: 40px;
         letter-spacing: 3px;
         margin-left: 0px;
+        padding-left: 0px;
+        font-size: 16px;
     }
-    
+    #role{
+        font-size: 16px;
+    }
+    #name{
+        font-size: 24px;
+    }
+    #description{
+        width: 327px;
+    }
+    #crewImage{
+        height: 222px;
+        width: 177px;
+        margin-bottom: -3px;
+        
+    }
+    .infoContainer{
+        margin-top: 325px;
+    }
+    .secondpart{
+        margin-bottom: 0px;
+        border-bottom: 1px solid #383B4B;
+        width: 85%;
+        position: absolute;
+        top: 23%;
+        left: 7%;
+    }
+    .dotContainer{
+        position: absolute;
+        top: 60%;
+        width: 50%;
+        left: 26%;
+    }
+    .dot{
+        background-color: #979797;
+    }
+    .active{
+        background-color: #ffffff !important;
+    }
 }
 @media screen and (max-width:340px){
     .sidebar ul li{
         font-size: 14px;
+    }
+    #description{
+        width: 290px;
     }
 }

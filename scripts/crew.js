@@ -1,19 +1,37 @@
-var slideIndex = 0;
-showSlides();
+var numb = 0;
 
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+fetch("./scripts/data.json")
+.then(
+    function(resp){
+        return resp.json();
+    })
+    .then(function(data){
+        //data.destinations[0];
+        document.getElementById("role").innerHTML = data.crew[numb].role;
+        document.getElementById("name").innerHTML = data.crew[numb].name;
+        document.getElementById("crewImage").src = data.crew[numb].images.png;
+        document.getElementById("description").innerHTML = data.crew[numb].bio;
+    })
+
+changeInfo = numb =>{
+    fetch("./scripts/data.json")
+.then(
+    function(resp){
+        return resp.json();
+    })
+    .then(function(data){
+        //data.destinations[0];
+        document.getElementById("role").innerHTML = data.crew[numb].role;
+        document.getElementById("name").innerHTML = data.crew[numb].name;
+        document.getElementById("crewImage").src = data.crew[numb].images.png;
+        document.getElementById("description").innerHTML = data.crew[numb].bio;
+    })
+    var dots = document.getElementsByClassName("dot");
+    for (var i=0; i<dots.length; i++){
+        if (i==numb){
+          dots[numb].setAttribute("class", "dot active");
+        }else{
+          dots[i].setAttribute("class", "dot");
+        }
+    }
 }
