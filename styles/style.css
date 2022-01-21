@@ -39,13 +39,13 @@ nav ul li{
     letter-spacing: 3px;
     font-size: 14px;
     text-transform: uppercase;
-    padding: 30px 0px;
+    padding: 25px 0px;
     
 }
 nav .navlinks{
     color: #ffffff;
     text-decoration: none;
-    padding: 30px 0px;
+    padding: 25px 0px;
     
 }
 nav .selectedlink{
@@ -68,7 +68,7 @@ nav hr{
     display: none;
 }
 .container{
-    margin-top: 70px;
+    margin-top: 150px;
     padding: 0px 70px;
     display: flex;
     align-items: center;
@@ -95,12 +95,12 @@ nav hr{
     margin-top: 25px;
     font-size: 16px;
     font-family: 'Barlow', sans-serif;
-    font-weight: 100;
 }
 .secondpart{
     height: 100%;
     width: 230px;
     box-sizing: border-box;
+    margin-top: 90px;
 }
 .secondpart a{
     text-decoration: none;
@@ -131,7 +131,7 @@ nav hr{
 
 @media screen and (max-width:991px){
     html{
-        background: url("../images/home/background-home-tablet.jpg") no-repeat center center fixed;
+        background: url("../images/home/background-home-tablet.jpg") center no-repeat fixed;
         background-size: cover;
         min-height: 100%;
     }
@@ -141,41 +141,46 @@ nav hr{
     }
     nav img{
         margin: 10px 0px 0px;
-        width: 50px;
+        width: 48px;
     }
     nav hr{
         display: none;
     }
-    nav ul{
+    nav ul{padding: 0px 10px 0px 35px;
         position: relative;
         margin: 0px;
-        padding: 0px 20px 0px 60px;
+        
     }
     nav li strong{
         display: none;
     }
     nav .navlinks{
-        font-size: 16px;
+        font-size: 14px;
     }
     .container{
         display: block;
         text-align: center;
         padding: 0px 25px;
+        margin-top: 70px;
     }
     .intro{
         font-size: 16px;
     }
     .destination{
         font-size: 120px;
+        margin-bottom: 10px;
     }
     .information{
-        font-size: 18px;
+        color: #D0D6F9;
+        font-size: 16px;
+        width: 440px;
+        margin: auto;
     }
     .secondpart{
         width: 100%;
         height: 100%;
         text-align: center;
-        margin: 100px 0px 25px;
+        margin: 150px 0px 100px;
     }
     .explore{
         margin: 0 auto;
@@ -186,21 +191,15 @@ nav hr{
     }
 }
 @media screen and (max-width:767px){
-    nav{
-        padding-left: 20px;
-    }
-    nav ul{
-        padding: 0px 0px 0px 35px;
-    }
-    .explore:active{
+    /*.explore:active{
         outline: none;
         background-color: #141416;
         color: #ffffff;
-    }
+    }*/
 }
 @media screen and (max-width:555px){
     html{
-        background: url("../images/home/background-home-mobile.jpg") no-repeat center center fixed;
+        background: url("../images/home/background-home-mobile.jpg") bottom no-repeat fixed;
         background-size: cover;
         min-height: 100%;
     }
@@ -255,20 +254,22 @@ nav hr{
         color: #d0d6f9;
     }
     .container{
-        margin-top: 40px;
+        margin-top: 50px;
         padding: 0px 5px;
     }
     .intro{
-        font-size: 18px;
+        font-size: 16px;
         letter-spacing: 2px;
+        margin-bottom: 20px;
     }
     .destination{
         font-size: 80px;
         letter-spacing: 2px;
+        margin-bottom: 20px;
     }
     .information{
-        font-size: 14px;
-        font-size: 400;
+        font-size: 15px;
+        width: 327px;
         margin-top: 0px;
     }
     .explore{
@@ -277,6 +278,16 @@ nav hr{
     }
     .secondpart{
         height: 100%;
+        margin-top: 60px;
+    }
+    .explore{
+        height: 0px;
+        width: 150px;
+        font-size: 20px;
+        line-height: 0px;
+    }
+    .explore:active{
+        outline: 30px solid #23262f;
     }
 }
 @media screen and (max-width:340px){

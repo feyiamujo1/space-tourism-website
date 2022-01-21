@@ -3,7 +3,6 @@ html{
     background: url("../images/crew/background-crew-desktop.jpg") no-repeat center center fixed;
     background-size: cover;
     min-height: 100%;
-    
 }
 body{
     margin: 0 auto;
@@ -39,14 +38,12 @@ nav ul li{
     letter-spacing: 3px;
     font-size: 14px;
     text-transform: uppercase;
-    padding: 30px 0px;
-    
+    padding: 25px 0px;
 }
 nav .navlinks{
     color: #ffffff;
     text-decoration: none;
-    padding: 30px 0px;
-    
+    padding: 25px 0px;
 }
 nav .selectedlink{
     border-bottom: 2px solid #ffffff;
@@ -68,19 +65,79 @@ nav hr{
     display: none;
 }
 .container{
-    margin-top: 70px;
-    padding: 0px 90px;
+    margin-top: 30px;
+    padding: 0px 50px;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 100%;
+}
+.firstpart{
+    margin-right: 60px;
+}
+.instruction{
+    font-size: 25px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 5px;
+    margin-bottom: 70px;
+}
+.instruction strong{
+    color: #545662;
 }
 .sidebar{
     display: none;
 }
-
+#role{
+    font-size: 30px;
+    font-family: 'Bellefair', serif;
+    color: #71747d;
+    text-transform:uppercase;
+    padding: 0px;
+    margin-top: 110px;
+    margin-bottom:  10px;
+}
+#name{
+    font-size: 54px;
+    text-transform:uppercase;
+    font-family: 'Bellefair', serif;
+    margin: 0px;
+}
+#description{
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    color: #d0d6f9;
+    line-height: 25px;
+    width: 400px;
+    height: 120px;
+}
+#crewImage{
+    position: fixed;
+    bottom: 0px;
+    right: 10%;
+    height: 80%;
+}
+.dotContainer{
+    margin: 30px 0px;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    background-color: #383a46;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+}
+.dot:hover{
+    background-color: #8c8f96;
+}
+.active{
+    background-color: #ffffff;
+}
 @media screen and (max-width:991px){
     html{
-        background: url("../images/crew/background-crew-tablet.jpg") no-repeat center center fixed;
+        background: url("../images/crew/background-crew-tablet.jpg") center center no-repeat  fixed;
         background-size: cover;
         min-height: 100%;
     }
@@ -90,7 +147,7 @@ nav hr{
     }
     nav img{
         margin: 10px 0px 0px;
-        width: 50px;
+        width: 48px;
     }
     nav hr{
         display: none;
@@ -98,33 +155,73 @@ nav hr{
     nav ul{
         position: relative;
         margin: 0px;
-        padding: 0px 20px 0px 60px;
+        padding: 0px 10px 0px 35px;
     }
     nav li strong{
         display: none;
     }
     nav .navlinks{
-        font-size: 16px;
+        font-size: 14px;
     }
     .container{
         display: block;
         text-align: center;
-        padding: 0px 25px;
+        padding: 0px 50px;
     }
-}
-@media screen and (max-width:767px){
-    nav{
-        padding-left: 20px;
+    .firstpart{
+        margin: 0px;
     }
-    nav ul{
-        padding: 0px 0px 0px 35px;
+    .instruction{
+        text-align: left !important;
+        font-size: 20px;
+    }
+    .ghost{
+        display: none;
+    }
+    #name{
+        font-size: 40px;
+    }
+    #description{
+        width: 460px;
+        margin: 0 auto;
+    }
+    .secondpart{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #crewImage{
+        right: 0px;
+        position: relative;
+        height: 572px;
+        width: 456px;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    #role{
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    #description{
+        font-size: 16px;
+        height: 110px;
+    }
+    .dot{
+        width: 10px;
+        height: 10px;
+    }
+    .dotContainer{
+        margin-top: 0px;
+        margin-bottom: 20px;
     }
 }
 @media screen and (max-width:555px){
     html{
         background: url("../images/crew/background-crew-mobile.jpg") no-repeat center center fixed;
         background-size: cover;
-        min-height: 100%;
     }
     nav ul{
         display: none;
@@ -171,7 +268,6 @@ nav hr{
         color: #ffffff;
         text-decoration: none;
         padding: 30px 0px;
-        
     }
     .sidebar .navlinks:active{
         color: #d0d6f9;
@@ -180,6 +276,13 @@ nav hr{
         margin-top: 40px;
         padding: 0px 5px;
     }
+    .instruction{
+        text-align: center;
+        margin-bottom: 40px;
+        letter-spacing: 3px;
+        margin-left: 0px;
+    }
+    
 }
 @media screen and (max-width:340px){
     .sidebar ul li{

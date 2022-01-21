@@ -39,13 +39,13 @@ nav ul li{
     letter-spacing: 3px;
     font-size: 14px;
     text-transform: uppercase;
-    padding: 30px 0px;
+    padding: 25px 0px;
     
 }
 nav .navlinks{
     color: #ffffff;
     text-decoration: none;
-    padding: 30px 0px;
+    padding: 25px 0px;
     
 }
 nav .selectedlink{
@@ -90,7 +90,7 @@ nav hr{
     }
     nav img{
         margin: 10px 0px 0px;
-        width: 50px;
+        width: 48px;
     }
     nav hr{
         display: none;
@@ -98,13 +98,13 @@ nav hr{
     nav ul{
         position: relative;
         margin: 0px;
-        padding: 0px 20px 0px 60px;
+        padding: 0px 10px 0px 35px;
     }
     nav li strong{
         display: none;
     }
     nav .navlinks{
-        font-size: 16px;
+        font-size: 14px;
     }
     .container{
         display: block;

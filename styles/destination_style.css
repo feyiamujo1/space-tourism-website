@@ -38,13 +38,13 @@ nav ul li{
     letter-spacing: 3px;
     font-size: 14px;
     text-transform: uppercase;
-    padding: 30px 0px;
+    padding: 25px 0px;
     
 }
 nav .navlinks{
     color: #ffffff;
     text-decoration: none;
-    padding: 30px 0px;
+    padding: 25px 0px;
     
 }
 nav .selectedlink{
@@ -67,7 +67,7 @@ nav hr{
     display: none;
 }
 .container{
-    margin-top: 50px;
+    margin-top: 10px;
     padding: 0px 50px;
     display: flex;
     align-items: center;
@@ -135,7 +135,6 @@ nav hr{
     line-height: 25px;
     width: 400px;
     height: 120px;
-    font-weight: 100;
 }
 .detail_container hr{
     background-color: #383B4B;
@@ -153,7 +152,6 @@ nav hr{
     font-size: 14px;
     color: #D0D6F9;
     letter-spacing: 2px;
-    
 }
 .distance, .time{
     font-family: 'Bellefair', serif;
@@ -173,7 +171,7 @@ nav hr{
     }
     nav img{
         margin: 10px 0px 0px;
-        width: 50px;
+        width: 48px;
     }
     nav hr{
         display: none;
@@ -181,13 +179,13 @@ nav hr{
     nav ul{
         position: relative;
         margin: 0px;
-        padding: 0px 20px 0px 60px;
+        padding: 0px 10px 0px 35px;
     }
     nav li strong{
         display: none;
     }
     nav .navlinks{
-        font-size: 16px;
+        font-size: 14px;
     }
     .container{
         display: block;
@@ -199,11 +197,14 @@ nav hr{
     }
     .instruction{
         text-align: left;
-        font-size: 22px;
+        font-size: 20px;
+    }
+    .instruction strong{
+        font-weight: bolder;
     }
     .destination_image{
         margin: 0px;
-        width: 330px;
+        width: 300px;
     }
     .secondpart{
         text-align: center;
@@ -213,7 +214,10 @@ nav hr{
         justify-content: center;
     }
     .choice_destinations li{
-        margin: 0px 28px;
+        margin: 0px 15px;
+    }
+    .destination{
+        font-size: 80px;
     }
     .destination_description{
         width: 550px;
@@ -230,21 +234,11 @@ nav hr{
     }
 }
 @media screen and (max-width:767px){
-    nav ul{
-        padding: 0px 0px 0px 35px;
-    }
-    nav{
-        padding-left: 20px;
-    }
-    .destination_description{
-        width: 450px;
-        height: 130px;
-    }
-    .detail_container hr{
-        width: 400px;
+    .container{
+        padding: 0px;
     }
     .instruction{
-        margin-left: 20px;
+        padding-left: 50px;
     }
 }
 @media screen and (max-width:555px){
@@ -312,9 +306,11 @@ nav hr{
         margin-bottom: 40px;
         letter-spacing: 3px;
         margin-left: 0px;
+        padding-left: 0px;
+        font-size: 16px;
     }
     .destination_image{
-        width: 200px;
+        width: 170px;
     }
     .secondpart{
         margin-top: 5px;
@@ -323,18 +319,20 @@ nav hr{
         margin: 0px;
     }
     .choice_destinations li{
-        margin: 0px 15px;
+        margin: 0px 10px;
+        font-size: 14px;
     }
     .destination{
-        font-size: 65px;
+        font-size: 56px;
         margin-top: 0px;
     }
     .destination_description{
-        width: 330px;
+        width: 327px;
         margin-bottom: 35px;
+        font-size: 15px;
     }
     .detail_container hr{
-        width: 90%;
+        width: 85%;
     }
     .other_info{
         display: block;
