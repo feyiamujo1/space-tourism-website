@@ -192,11 +192,11 @@ nav hr{
     }
 }
 @media screen and (max-width:767px){
-    /*.explore:active{
+    .explore:active{
         outline: none;
         background-color: #141416;
         color: #ffffff;
-    }*/
+    }
 }
 @media screen and (max-width:555px){
     html{
@@ -286,9 +286,6 @@ nav hr{
         width: 150px;
         font-size: 20px;
         line-height: 0px;
-    }
-    .explore:active{
-        outline: 30px solid #23262f;
     }
 }
 @media screen and (max-width:340px){
