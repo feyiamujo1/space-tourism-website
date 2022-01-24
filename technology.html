@@ -24,7 +24,29 @@
         </nav>
     </div>
     <div class="container">
-        
+        <div class="firstpart">
+            <p class="instruction"><strong>03</strong> &nbsp;&nbsp;SPACE LAUNCH 101</p>
+            <div class="ImageContainer">
+                <img id="techImage" alt="Space technology">
+            </div>
+            <div class="dotContainer">
+                <span onclick="changeInfo(0)" class="active dot"><p>1</p></span> 
+                <span onclick="changeInfo(1)" class="dot"><p>2</p></span> 
+                <span onclick="changeInfo(2)" class="dot"><p>3</p></span> 
+            </div>
+            <div class="infoContainer">
+                <p class="terminology">
+                    THE TERMINOLOGY ...
+                </p>
+                <p id="topic">
+                    
+                </p>
+                <p id="description">
+                </p>
+            </div>
+        </div>
+        <div class="ghost" style="width: 315px;">
+        </div>
     </div>
     <div id="sidebar" class="sidebar">
         <img src="images/icon-close.svg" onclick="hidesidebar()" alt="">
@@ -36,5 +58,6 @@
         </ul>
     </div>
     <script src="scripts/homepage.js"></script>
+    <script src="scripts/technology.js"></script>
 </body>
 </html>
