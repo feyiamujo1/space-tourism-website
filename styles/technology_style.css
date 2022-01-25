@@ -309,7 +309,7 @@ nav hr{
     }
     .container{
         margin-top: 40px;
-        padding: 0px 5px;
+        padding: 0px;
     }
     #techImage{
         margin: 20px auto;
@@ -339,6 +339,9 @@ nav hr{
     .active{
         color: #0b0d17 !important;
         background-color: #ffffff !important;
+    }
+    .infoContainer{
+        width: 100%;
     }
 }
 @media screen and (max-width:340px){
