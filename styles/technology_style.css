@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Barlow:wght@100;400&family=Bellefair&display=swap');
 html{
     background: url("../images/technology/background-technology-desktop.jpg") no-repeat center center fixed;
-    background-size: cover;
-    min-height: 100%;
-    
+    background-size: cover;    
 }
 body{
     margin: 0 auto;
@@ -160,7 +158,6 @@ nav hr{
     html{
         background: url("../images/technology/background-technology-tablet.jpg") no-repeat center center fixed;
         background-size: cover;
-        min-height: 100%;
     }
     nav{
         padding-top: 0px;
@@ -261,7 +258,6 @@ nav hr{
     html{
         background: url("../images/technology/background-technology-mobile.jpg") no-repeat center center fixed;
         background-size: cover;
-        min-height: 100%;
     }
     nav ul{
         display: none;

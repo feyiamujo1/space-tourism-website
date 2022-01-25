@@ -2,7 +2,6 @@
 html{
     background: url("../images/crew/background-crew-desktop.jpg") no-repeat center center fixed;
     background-size: cover;
-    min-height: 100%;
 }
 body{
     margin: 0 auto;
@@ -140,7 +139,6 @@ nav hr{
     html{
         background: url("../images/crew/background-crew-tablet.jpg") center center no-repeat  fixed;
         background-size: cover;
-        min-height: 100%;
     }
     nav{
         padding-top: 0px;
