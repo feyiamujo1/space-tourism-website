@@ -186,14 +186,14 @@ nav hr{
     }
     .explore:active{
         outline: none;
-        background-color: #141416;
+        background-color: #0b0d17;
         color: #ffffff;
     }
 }
 @media screen and (max-width:767px){
     .explore:active{
         outline: none;
-        background-color: #141416;
+        background-color: #0b0d17;
         color: #ffffff;
     }
     .explore:hover{
@@ -291,12 +291,12 @@ nav hr{
     }
     .explore:active{
         outline: none;
-        background-color: #141416;
+        background-color: #0b0d17;
         color: #ffffff;
     }
     .explore:hover{
         outline: none;
-        background-color: #141416;
+        background-color: #0b0d17;
         color: #ffffff;
     }
 }
