@@ -296,6 +296,8 @@ nav hr{
     }
     .explore:hover{
         outline: none;
+        background-color: #141416;
+        color: #ffffff;
     }
 }
 @media screen and (max-width:340px){
