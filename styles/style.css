@@ -123,9 +123,6 @@ nav hr{
 .explore:hover{
     outline: 50px solid #23262f;
 }
-.explore:active{
-    outline: 50px solid #23262f;
-}
 .sidebar{
     display: none;
 }
@@ -198,6 +195,9 @@ nav hr{
         outline: none;
         background-color: #141416;
         color: #ffffff;
+    }
+    .explore:hover{
+        outline: none;
     }
 }
 @media screen and (max-width:555px){
@@ -288,6 +288,14 @@ nav hr{
         width: 150px;
         font-size: 20px;
         line-height: 0px;
+    }
+    .explore:active{
+        outline: none;
+        background-color: #141416;
+        color: #ffffff;
+    }
+    .explore:hover{
+        outline: none;
     }
 }
 @media screen and (max-width:340px){
