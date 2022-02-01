@@ -31,13 +31,8 @@ nav ul{
     display: flex;
     padding-right: 150px;
     padding-left: 90px;
-    background: hsl(0 0% 0% / 0.5);
-}
-@supports (backdrop-filter: blur(1rem)){
-    nav ul{
-        background: hsl(0 0% 100% / 0.1);
-        backdrop-filter: blur(1rem);
-    }
+    background: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(1rem);
 }
 nav ul li{
     margin-right: 30px;
@@ -287,13 +282,8 @@ nav hr{
         right: 0px;
         bottom: 0%;
         width: 70%;
-        background: hsl(0 0% 0% / 0.5);
-    }
-    @supports (backdrop-filter: blur(1rem)){
-        .sidebar{
-            background: hsl(0 0% 100% / 0.1);
-            backdrop-filter: blur(1rem);
-        }
+        background: hsl(0 0% 100% / 0.1);
+        backdrop-filter: blur(1rem);
     }
     .sidebar img{
         width: 25px;
