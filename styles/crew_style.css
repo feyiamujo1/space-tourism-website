@@ -254,14 +254,17 @@ nav hr{
         right: 0px;
         bottom: 0%;
         width: 70%;
-        background: hsl(0 0% 0% / 0.95);
+        /* background: hsl(0 0% 0% / 0.95); */
+        background: hsl(0 0% 30% / 0.1);
+        -webkit-backdrop-filter: blur(2rem);
+        backdrop-filter: blur(2rem);
     }
-    @supports (backdrop-filter: blur(1rem)){
+    /* @supports (backdrop-filter: blur(1rem)){
         .sidebar{
             background: hsl(0 0% 40% / 0.2);
             backdrop-filter: blur(2rem);
         }
-    }
+    } */
     .sidebar img{
         width: 25px;
         margin: 29px 30px 25px 0px;
