@@ -31,14 +31,16 @@ nav ul{
     display: flex;
     padding-right: 150px;
     padding-left: 90px;
-    background: hsl(0 0% 0% / 0.3);
+    background: hsl(0 0% 30% / 0.1);
+    -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1rem);
 }
-@supports (backdrop-filter: blur(1rem)){
+/* @supports (backdrop-filter: blur(1rem)){
     nav ul{
         background: hsl(0 0% 40% / 0.1);
         backdrop-filter: blur(1rem);
     }
-}
+} */
 nav ul li{
     margin-right: 30px;
     font-family: 'Barlow Condensed', sans-serif;
